@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Uji Sertifikasi</string>
+    <string name="form_pendaftaran_organisasi">Form Pendaftaran Organisasi</string>
+    <string name="masukan_nama_anda">Masukan Nama Anda</string>
+    <string name="masukan_nama_and">Masukan Nama Anda</string>
+    <string name="masukan_alamat_anda">Masukan Alamat Anda</string>
+    <string name="pria">Pria</string>
+    <string name="jenis_kelamin">Jenis Kelamin :</string>
+    <string name="wanita">Wanita</string>
+    <string name="lattitude_nlongtitude">Lattitude: ?\nLongtitude: ?</string>
+    <string name="lokasi_pendaftaran">Lokasi Pendaftaran</string>
+    <string name="cek_lokasi_nsekarang">Cek Lokasi \nSekarang</string>
+    <string name="upload_foto">Upload Foto</string>
+    <string name="pilih_gambar">Pilih Gambar</string>
+    <string name="todo">TODO</string>
+    <string name="registrasi_member">Registrasi Member</string>
+    <string name="organisasi_kemahasiswaan">Organisasi Kemahasiswaan</string>
+    <string name="daftar_list_member">Daftar List Member</string>
+    <string name="show_member">Show Member</string>
+    <string name="nama">Nama</string>
+    <string name="image_detail">image detail</string>
+    <string name="alamat">Alamat</string>
+    <string name="textview">TextView</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+</resources>

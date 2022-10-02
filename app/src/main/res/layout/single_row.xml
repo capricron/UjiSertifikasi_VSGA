@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/sr_nameDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:paddingStart="10dp"
+        android:paddingBottom="0dp"
+        android:text="@string/nama"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/sr_jenisKelaminDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sr_imageDetail"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/jenis_kelamin"
+        android:textSize="20sp"
+        tools:ignore="RtlSymmetry,TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/sr_imageDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sr_nameDetail"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/image_detail"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/sr_alamatDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sr_jenisKelaminDetail"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/alamat"
+        android:textSize="20sp"
+        tools:ignore="RtlSymmetry,TextContrastCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sr_alamatDetail"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/sr_latitudeDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/latitude"
+            android:textSize="20sp"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/sr_longitudeDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/longitude" />
+    </LinearLayout>
+
+</RelativeLayout>
